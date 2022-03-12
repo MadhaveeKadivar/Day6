@@ -1,3 +1,6 @@
+#Write a program to compute Factors of a number N using prime factorization method. Logic -> Traverse till i*i <= N instead of i <= N for efficiency.
+# O/P -> Print the prime factors of number N.
+
 echo "Enter any number you want to prime factorize : "
 read n
 echo "All prime factors of the $n are : "
@@ -9,22 +12,3 @@ do
 		n=$(($n/$i))
 	done
 done
-
-#Second Method
-echo
-#echo "Enter any number you want to prime factorize : "
-#read n
-#while(($n%2==0))
-#do
-#	echo "2 "
-#	n=$(($n/2))
-#done
-#for((j=3;j*j<=$n;j=$j+2))
-#do
-#	while(($n%$j==0))
-#	do
-#		echo " $j "
-#		n=$(($n/$j))
-#	done
-#done
-

@@ -1,3 +1,4 @@
+# Extend the Flip Coin problem till either Heads or Tails wins 11 times.
 heads=0
 tails=0
 while(($heads>=0 || $tails>=0))

@@ -1,3 +1,4 @@
+# Write a function to check if the two numbers are Palindromes
 function palindrome(){
 rn=0
 n=no1

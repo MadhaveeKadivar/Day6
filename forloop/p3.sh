@@ -1,3 +1,4 @@
+# Write a program that takes a input and determines if the number is a prime.
 echo "Enter a number : "
 read n
 prime=0

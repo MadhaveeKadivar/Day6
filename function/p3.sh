@@ -5,7 +5,7 @@
 function prime()
 {
 prime=0
-if(($n==2 ||$n==0 ||$n==1))
+if(($n==0 ||$n==1))
 then
 	prime=0
 else
